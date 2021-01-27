@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0; box-sizing: border-box;}
+nav{height: 90px; color: #ffffff}
+a{cursor: pointer; font-width: bold;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    height: 100vh;
+}
+
+#container-lg {
+    height: 400px;
+    width: 600px;
+    background-color: #070B19;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.neo-section {
+    min-height: 950px;
+    background-size: cover;
+    background-position: center;
+}
+
